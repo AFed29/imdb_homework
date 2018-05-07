@@ -23,7 +23,7 @@ class OpeningThisWeek extends Component {
   render() {
     return (
       <div className="opening-this-week">
-        <h1>Films opening</h1>
+        <h1>UK Opening This Week</h1>
         <FilmList data={ this.state.data }/>
       </div>
     )
