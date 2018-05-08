@@ -6,7 +6,7 @@ class Film extends Component {
   render() {
     const url = () => {
       const temp = this.props.title.toLowerCase();
-      return temp.replace(' ', '-');
+      return temp.replace(/ /g, '-');
     }
 
     return (
