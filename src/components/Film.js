@@ -11,6 +11,7 @@ class Film extends Component {
 
     return (
       <div className="film">
+        <button>+</button>
         <a href={`/films/${url()}`}>{this.props.title}</a>
         <a href={`/showtimes/${url()}`}>Showtimes</a>
       </div>
